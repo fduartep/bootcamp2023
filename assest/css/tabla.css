@@ -5,3 +5,17 @@
     max-width: 800px;
     margin: auto;
   }
+  .proys th {
+    background-color: #A5C9DB;
+    color: black;
+    border: 1px solid #005A8C;
+    padding: 10px;
+  }
+  .proys td {
+    border: 1px solid #A5C9DB;
+    padding: 10px;
+  }
+  .proys thead {
+    background-color: #9acfea;
+  }
+  
