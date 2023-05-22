@@ -1,0 +1,84 @@
+/*Estilo del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.container h1{
+ color: whitesmoke;
+ border-color: aqua;
+ font-size: 50%;
+}
+
+/*estilos del encabezado*/
+header {
+    background-color: #333;
+    background-image: url('../img/fondo2.jpg');
+    background-size: cover;    /* Ajusta el tamaño de la imagen para cubrir todo el encabezado */
+    background-position: center;    /* Centra la imagen en el encabezado */
+    border-radius: 1%;
+    padding: 20px;
+    color: #fff;
+    padding: 20px;
+    color: #fff;
+}
+
+.principal {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.principal h1 {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.principal p {
+    font-size: 18px;
+}
+
+/* estilo para los productos*/
+.productos-section {
+    background-color: #f9e9db;
+    padding: 50px 0;
+}
+
+.producto {
+    text-align: center;
+    margin: 40px;
+}
+
+.producto img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.producto h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.producto p {
+    font-size: 16px;
+    margin: 0;
+}
+
+/*estilo para el pie de la pinche pagina*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
